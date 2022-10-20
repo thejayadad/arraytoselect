@@ -13,3 +13,11 @@ body {
     justify-content: space-evenly;
     height: 100px;
 }
+option{
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
