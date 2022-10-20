@@ -2,13 +2,13 @@
 let btn = document.getElementById("btn")
 let select = document.getElementById("select")
 
-let kids = ["jace", "jazz", "jada", "jazz"]
+let items = ["jace", "jazz", "jada", "jazz"]
 
 btn.addEventListener("click", () => {
-    let options = kids.map( kid =>
+    let options = items.map( item =>
         `
-        <option value=${kid}>
-        ${kid}
+        <option value=${item}>
+        ${item}
         </option>
         `)
         select.innerHTML = options
